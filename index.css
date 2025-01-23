@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<head>
+    <style>
+        @keyframes lab1{
+            0%{
+                background-color: red;
+            }
+            25%{
+                background-color: pink;
+            }
+            50%{
+                background-color: green;
+            }
+            75%{
+                background-color: yellow;
+            }
+            100%{
+                background-color: black;
+            }
+        }
+
+        .sq{
+            width: 200px;
+        height: 200px;
+        background-color: red;
+        animation-name: lab1;
+        animation-duration: 10s;
+        }
+    </style>
+</head>
+<body>
+    <div class="sq"></div>
+</body>
+</html>
